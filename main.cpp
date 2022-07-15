@@ -1,32 +1,40 @@
 #include <iostream>
-#include <stack>
 
 using namespace std;
 
 int main(){
     ios::sync_with_stdio(false);//to musi być
-    int ilosc_budynkow, wielkosc;//, x;
+    int ilosc_budynkow; 
+    int min_size;//najmniejszy rozmiar budynku
+    int max_size;//najwiekszy rozmiar budynku
     cin>>ilosc_budynkow;
     int plakaty=0;
+    int tab[25000];
     //jesli wyskosc budynków jest taka sama mozna je uznac za jeden budynek
-    stack<int>wysokosci;
     // cin>>x>>n;
-    cin>>wielkosc;
-    wysokosci.push(wielkosc);
+    cin>>tab[0];
+    min_size=tab[0];
+    max_size=tab[0];
     plakaty++;
     for(int i=1;i<ilosc_budynkow;i++){
-        //czytamy z inputa, pierwsza liczba idzie do smieci bo nas nie interesuje
-        // cin>>x>>n;
-        cin>>wielkosc;
-        //jesli wysokości są takie same to mozemy nie dodawac do stosu tej liczby
-        if(n>wysokosci.top()){
+        cin>>tab[i];
+        if (min_size>tab[i]){
+            min_size=tab[i];
+        }
+        if (max_size<tab[i]){
+            max_size=tab[i];
+        }
 
-        }else{
-            wysokosci.push(n);
-            plakaty++; 
-        } 
     }
-    cout<<plakaty;
+    for(j=0;j<ilosc_budynkow;j++){
+        
+        for(int i = 0;i<max_size;i++){
+        
+        }
+    } 
+    
+    cout<<min_size<<endl;
+    cout<<plakaty<<endl;
     
     return 0;
 }
