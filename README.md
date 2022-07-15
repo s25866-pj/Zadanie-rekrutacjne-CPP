@@ -1,15 +1,18 @@
-<h3>Plakatowanie</h3>
-Wszystkie budynki we wschodniej części Bajtogrodu zostały zbudowane zgodnie z zasadami
-starego bajtobudownictwa: stoją one jeden przy drugim (nie ma między nimi przerw). Razem
-tworzą bardzo długą ścianę budynków o zróżnicowanej wysokości, ciągnącą się ze wschodu na
-zachód.
-Burmistrz Bajtogrodu, Bajtazar, postanowił, że ścianę budynków należy od północnej
-strony pokryć plakatami. Bajtazar zastanawia się, jaką minimalną liczbą plakatów można
-pokryć całą północną ścianę budynków. Plakaty powinny mieć kształt prostokątów o bokach
-pionowych i poziomych. Plakaty nie mogą zachodzić na siebie, natomiast mogą stykać
-się brzegami. Każdy plakat musi w całości przylegać do ścian pewnych budynków i cała
-powierzchnia północnych ścian budynków musi być pokryta plakatami.
-Zadanie
+<h2><strong>Plakatowanie</strong></h2>
+<span style="color:yellow">
+    Wszystkie budynki we wschodniej części Bajtogrodu zostały zbudowane zgodnie z zasadami
+    starego bajtobudownictwa: stoją one jeden przy drugim (nie ma między nimi przerw). Razem
+    tworzą bardzo długą ścianę budynków o zróżnicowanej wysokości, ciągnącą się ze wschodu na
+    zachód.
+    Burmistrz Bajtogrodu, Bajtazar, postanowił, że ścianę budynków należy od północnej
+    strony pokryć plakatami. Bajtazar zastanawia się, jaką minimalną liczbą plakatów można
+    pokryć całą północną ścianę budynków. Plakaty powinny mieć kształt prostokątów o bokach
+    pionowych i poziomych. Plakaty nie mogą zachodzić na siebie, natomiast mogą stykać
+    się brzegami. Każdy plakat musi w całości przylegać do ścian pewnych budynków i cała
+    powierzchnia północnych ścian budynków musi być pokryta plakatami.
+</span>
+
+<h2><strong>Zadanie</strong></h2>
 Napisz program, który:
 • wczyta ze standardowego wejścia opisy budynków,
 • wyznaczy minimalną liczbę plakatów potrzebnych do całkowitego pokrycia ich północnych
