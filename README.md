@@ -14,11 +14,12 @@
 
 <h2><strong>Zadanie</strong></h2>
 Napisz program, który:
-• wczyta ze standardowego wejścia opisy budynków,
-• wyznaczy minimalną liczbę plakatów potrzebnych do całkowitego pokrycia ich północnych
-ścian,
-• wypisze wynik na standardowe wyjście.
-Wejście
+<ul>
+<li>wczyta ze standardowego wejścia opisy budynków</li>
+<li>wyznaczy minimalną liczbę plakatów potrzebnych do całkowitego pokrycia ich północnych
+ścian</li>
+<li>wypisze wynik na standardowe wyjście</li>
+<h3>Wejście</h3>
 Pierwszy wiersz wejścia zawiera jedną liczbę całkowitą n (1 << n << 250 000 ), oznaczającą
 liczbę budynków stojących w rzędzie. Kolejne n wierszy zawiera po dwie liczby całkowite di
 i wi (1 << n << 1 000 000 000 ), oddzielone pojedynczym odstępem i oznaczające długość
@@ -26,3 +27,4 @@ i wysokość i-tego budynku w rzędzie.
 Wyjście
 Pierwszy i jedyny wiersz wyjścia powinien zawierać jedną liczbę całkowitą — minimalną liczbę
 prostokątnych plakatów, którymi można całkowicie pokryć północne ściany budynków.
+</ul>
