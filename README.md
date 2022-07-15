@@ -16,9 +16,9 @@ Napisz program, który:
 ścian,
 • wypisze wynik na standardowe wyjście.
 Wejście
-Pierwszy wiersz wejścia zawiera jedną liczbę całkowitą n (1 6 n 6 250 000 ), oznaczającą
+Pierwszy wiersz wejścia zawiera jedną liczbę całkowitą n (1 << n << 250 000 ), oznaczającą
 liczbę budynków stojących w rzędzie. Kolejne n wierszy zawiera po dwie liczby całkowite di
-i wi (1 6 di, wi 6 1 000 000 000 ), oddzielone pojedynczym odstępem i oznaczające długość
+i wi (1 << n << 1 000 000 000 ), oddzielone pojedynczym odstępem i oznaczające długość
 i wysokość i-tego budynku w rzędzie.
 Wyjście
 Pierwszy i jedyny wiersz wyjścia powinien zawierać jedną liczbę całkowitą — minimalną liczbę
