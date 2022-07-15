@@ -1,0 +1,2 @@
+g++ -Wall -ansi --pedantic -o main main.cpp
+./main
